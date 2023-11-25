@@ -1,0 +1,88 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important ;
+    box-sizing: border-box !important;
+}
+body{
+    font-family: monospace ;
+}
+header{
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-danger{
+    background-color: crimson !important;
+}
+
+/* navbar css  */
+.navbar-brand {
+    margin-left: 230px !important;
+    font-size: 30px;
+    color: white;
+}
+.nav-link{
+    margin-right: 25px  !important ;
+    color: white !important;
+    font-size: 18px;
+}
+.nav-item a{
+    font-size: 20px !important;
+    font-weight: 500;
+}
+.home{
+  
+    
+    height: 100vh;
+    columns: white;
+    min-height: 500px;
+    display: flex;
+}
+.max-width{
+    width: 100%;
+}
+.home .max-width{
+    width: 100%;
+    display: flex;
+    margin-top: 250px !important;
+    margin-left: 250px !important;
+    color: white;
+  }
+  .text-1 {
+    font-size: 27px;
+}
+
+.text-2{
+    font-size: 75px;
+    font-weight: 600;
+}
+.text-3 {
+    font-size: 40px;
+    margin-top: -25px !important ;
+    margin-bottom: 20px !important;
+}
+.text-3 span {
+    color: crimson !important;
+}
+.hire_me {
+    background-color: crimson ;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px !important;
+    margin-top: 10px !important;
+    border-radius: 5px ;
+}
+.hire_me:hover{
+    background: none !important;
+    border: 1px solid crimson;
+    color: crimson !important;
+}
+img.my-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* navbar end  */
+    
