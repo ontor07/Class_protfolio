@@ -86,3 +86,32 @@ img.my-img {
 }
 /* navbar end  */
     
+
+.card{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    width: 375px;
+    padding: 50px 25px !important;
+    margin-bottom: 50px !important;
+
+}
+.col_margin{
+   margin: 0px 60px !important;
+}
+
+section#services {
+    background: black;
+    color: white;
+}
+
+.card-body svg {
+    font-size: 50px;
+    color: crimson;
+    margin-bottom: 10px !important;
+}
+h5.card-title {
+    font-size: 30px;
+    margin-bottom: 10px !important;
+    /* font-weight: 500 !important; */
+}
