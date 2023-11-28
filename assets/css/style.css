@@ -30,11 +30,14 @@ header{
     font-size: 20px !important;
     font-weight: 500;
 }
+.nav-item a:hover{
+    color: crimson !important;
+}
 .home{
   
     
     height: 100vh;
-    columns: white;
+    color: white;
     min-height: 500px;
     display: flex;
 }
@@ -96,6 +99,7 @@ img.my-img {
     margin-bottom: 50px !important;
 
 }
+
 .col_margin{
    margin: 0px 60px !important;
 }
@@ -114,4 +118,18 @@ h5.card-title {
     font-size: 30px;
     margin-bottom: 10px !important;
     /* font-weight: 500 !important; */
+}
+
+.title h2 {
+    padding: 50px 0px !important;
+}
+.card:hover{
+    background-color: crimson;
+}
+.card:hover .card-body{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.card:hover svg {
+    color: white;
 }
