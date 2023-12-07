@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 *{
     margin: 0 !important;
     padding: 0 !important ;
     box-sizing: border-box !important;
 }
 body{
-    font-family: monospace ;
+  font-family: 'Ubuntu', sans-serif;
 }
 header{
     background-image: url('../img/banner.jpg');
@@ -108,6 +110,10 @@ section#services {
     background: black;
     color: white;
 }
+section#teams {
+    background: black;
+    color: white;
+}
 
 .card-body svg {
     font-size: 50px;
@@ -132,4 +138,129 @@ h5.card-title {
 }
 .card:hover svg {
     color: white;
+}
+.card-body img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid crimson;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    margin-bottom: 15px !important;
+}
+.card:hover img {
+    border: 5px solid white;
+}
+h2.section-title{
+    position: relative;
+}
+h2.section-title::before{
+    content: "";
+    height: 3px;
+    width: 180px;
+    position: absolute;
+    background-color: black;
+    bottom: -18px;
+    left: 41.5rem;
+}
+
+h2.section-title::after{
+    content: "who I am";
+    position: absolute;
+    bottom: -26px;
+    left: 44.5rem;
+    font-size: 20px;
+    background: white;
+    color: crimson;
+}
+
+
+
+
+
+/* responsive css  */
+/* ================================================ */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    
+}
+@media only screen
+and (min-device-width : 576px)
+and (max-device-width : 768px) {
+    .navbar-brand {
+        margin-left: 25px !important;
+       
+    }
+}
+
+@media only screen
+and (min-width : 321px) {
+    
+}
+
+@media only screen
+and (max-width : 320px) {
+ 
+}
+ 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    .navbar-brand {
+        margin-left: 25px !important;
+       
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    .navbar-brand {
+        margin-left: 25px !important;
+       
+    }
+}
+
+@media only screen
+and (min-width : 1224px) {
+
+}
+
+@media only screen
+and (min-width : 1824px) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .navbar-brand {
+        margin-left: 25px !important;
+       
+    }
+}
+ 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+}
+ 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
 }
